@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPower Electrical Corp | NYC UniFi Access & Integration Specialist</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600;800&family=Geist+Mono&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#0A0A0B',
+                        unifi: '#0057FF', // Electric Blue Current
+                        mist: '#94A3B8',
+                    },
+                    fontFamily: {
+                        headline: ['Inter Tight', 'sans-serif'],
+                        mono: ['Geist Mono', 'monospace'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .text-glow { text-shadow: 0 0 20px rgba(0, 87, 255, 0.5); }
+    </style>
+</head>
+
+<body class="bg-midnight text-white antialiased">
+
+    <nav class="fixed w-full z-50 bg-midnight/80 backdrop-blur-lg border-b border-white/5 py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="font-headline font-extrabold text-2xl tracking-tighter uppercase">
+                EM<span class="text-unifi">POWER</span> <span class="font-light text-mist">ELECTRICAL</span>
+            </div>
+            <div class="hidden md:flex gap-8 font-mono text-[10px] uppercase tracking-widest text-mist">
+                <a href="#ecosystem" class="hover:text-unifi transition-colors">Ecosystem</a>
+                <a href="#specializations" class="hover:text-unifi transition-colors">Project Scope</a>
+                <a href="#contact" class="text-white border-b border-unifi pb-1">Get Estimate</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="image_2.png" alt="NYC Lobby UniFi Intercom" class="w-full h-full object-cover opacity-30 scale-105">
+            <div class="absolute inset-0 bg-gradient-to-t from-midnight via-transparent to-midnight"></div>
+        </div>
+
+        <div class="container mx-auto px-6 z-10 text-center flex flex-col items-center">
+            <p class="font-mono text-xs text-unifi uppercase tracking-[0.4em] mb-6 bg-unifi/10 px-4 py-1 rounded-full border border-unifi/20">
+                Authorized NYC UniFi Integrator
+            </p>
+            <h1 class="font-headline text-6xl md:text-8xl font-black tracking-tighter text-white leading-[0.9] max-w-5xl mb-8">
+                EMPOWERING <br/><span class="text-unifi text-glow">NEW YORK</span> BUILDINGS.
+            </h1>
+            <p class="font-normal text-xl text-mist max-w-2xl mb-12 leading-relaxed">
+                EMPower Electrical Corp provides premium door access, intercoms, and secure networking for NYC’s Multi-Family Co-ops, Condos, and New Construction.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-6">
+                <a href="#contact" class="font-headline font-semibold text-lg px-12 py-5 bg-unifi text-white rounded-full shadow-[0_0_30px_rgba(0,87,255,0.3)] hover:shadow-[0_0_50px_rgba(0,87,255,0.6)] hover:scale-105 transition-all duration-300">
+                    Request Site Survey
+                </a>
+                <a href="#specializations" class="font-headline font-semibold text-lg px-12 py-5 bg-white/5 text-white rounded-full border border-white/10 backdrop-blur-md hover:bg-white/10 transition-all duration-300">
+                    View Project Scope
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="ecosystem" class="py-32 bg-black relative overflow-hidden">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-unifi/5 blur-[120px] rounded-full z-0"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-1/2">
+                    <p class="font-mono text-xs text-unifi uppercase tracking-[0.3em] mb-4">Unified Management</p>
+                    <h2 class="font-headline text-5xl md:text-6xl font-bold tracking-tight mb-8 leading-tight">
+                        One Building. <br/>One <span class="text-unifi text-glow">Dashboard.</span>
+                    </h2>
+                    <div class="space-y-6">
+                        <div class="p-6 bg-white/[0.03] border border-white/10 rounded-2xl flex gap-5 hover:border-unifi/50 transition-all">
+                            <div class="text-unifi text-2xl font-bold">01</div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-1">UniFi Access</h4>
+                                <p class="text-mist text-sm">Cloud-based door security and mobile-app tenant entry. Zero monthly fees.</p>
+                            </div>
+                        </div>
+                        <div class="p-6 bg-white/[0.03] border border-white/10 rounded-2xl flex gap-5 hover:border-unifi/50 transition-all">
+                            <div class="text-unifi text-2xl font-bold">02</div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-1">UniFi Protect</h4>
+                                <p class="text-mist text-sm">AI-driven surveillance for lobbies, elevators, and perimeters.</p>
+                            </div>
+                        </div>
+                        <div class="p-6 bg-unifi/10 border border-unifi/20 rounded-2xl flex gap-5">
+                            <div class="text-white text-2xl font-bold">03</div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-1">Single Pane of Glass</h4>
+                                <p class="text-white/70 text-sm italic">Property boards manage every door and camera from one unified screen.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 rounded-[2.5rem] border border-white/10 overflow-hidden shadow-2xl group">
+                    <img src="dashboard_mockup.png" alt="UniFi Dashboard" class="w-full grayscale hover:grayscale-0 transition-all duration-700">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="specializations" class="bg-midnight py-24 relative">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row gap-16">
+                <div class="lg:w-1/2 lg:sticky lg:top-32 h-fit">
+                    <p class="font-mono text-xs text-unifi uppercase tracking-[0.3em] mb-4">Project Scope</p>
+                    <h2 class="font-headline text-5xl font-bold tracking-tighter mb-8 leading-tight uppercase">
+                        Every Era of <br/> <span class="text-unifi">New York.</span>
+                    </h2>
+                    <p class="text-mist text-lg font-light mb-10 max-w-md">
+                        From Pre-War Brownstone retrofits to modern Glass-Tower construction, EMPower bridges the legacy and future of NYC infrastructure.
+                    </p>
+                </div>
+                <div class="lg:w-1/2 space-y-12">
+                    <div class="bg-white/[0.02] border border-white/10 rounded-[3rem] p-10 hover:border-unifi/30 transition-colors">
+                        <span class="text-4xl mb-4 block">🏛️</span>
+                        <h3 class="text-3xl font-bold mb-4">Retrofit Specialists</h3>
+                        <p class="text-mist mb-6">Updating Co-ops and Condos with IP-based video intercoms and fiber networking without disrupting historical architecture.</p>
+                        <ul class="space-y-2 text-sm font-mono text-unifi">
+                            <li>+ 2-Wire to IP Conversion</li>
+                            <li>+ No-Fee Tenant Entry</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white/[0.02] border border-white/10 rounded-[3rem] p-10 hover:border-unifi/30 transition-colors">
+                        <span class="text-4xl mb-4 block">🏗️</span>
+                        <h3 class="text-3xl font-bold mb-4">New Construction</h3>
+                        <p class="text-mist mb-6">Division 27/28 design-build services for developers and GCs. Structured fiber backbones for modern smart-buildings.</p>
+                        <ul class="space-y-2 text-sm font-mono text-unifi">
+                            <li>+ 10Gbps Fiber Backbones</li>
+                            <li>+ Full System Integration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-32 bg-black">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-16">
+                <h2 class="font-headline text-5xl font-bold mb-4">Start Your <span class="text-unifi">Integration.</span></h2>
+                <p class="text-mist text-lg font-light italic">EMPower Electrical Corp: NYC License #[Your License Here]</p>
+            </div>
+            <form class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <input type="text" placeholder="Name" class="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 focus:border-unifi focus:outline-none transition-all">
+                    <input type="email" placeholder="Work Email" class="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 focus:border-unifi focus:outline-none transition-all">
+                </div>
+                <div class="bg-white/5 border border-white/10 rounded-2xl p-6">
+                    <p class="text-xs font-mono text-unifi uppercase mb-4">Building Category</p>
+                    <div class="flex flex-wrap gap-3">
+                        <label class="cursor-pointer">
+                            <input type="radio" name="prop" class="hidden peer">
+                            <span class="px-5 py-2 rounded-full border border-white/10 text-xs peer-checked:bg-unifi transition-all inline-block uppercase">Co-op / Condo</span>
+                        </label>
+                        <label class="cursor-pointer">
+                            <input type="radio" name="prop" class="hidden peer">
+                            <span class="px-5 py-2 rounded-full border border-white/10 text-xs peer-checked:bg-unifi transition-all inline-block uppercase">Commercial Office</span>
+                        </label>
+                    </div>
+                </div>
+                <textarea rows="4" placeholder="Project details..." class="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 focus:border-unifi focus:outline-none transition-all"></textarea>
+                <button type="submit" class="w-full bg-unifi hover:bg-blue-600 text-white font-headline font-bold py-5 rounded-2xl shadow-xl transition-all uppercase tracking-widest">
+                    Request Survey
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-midnight border-t border-white/5 text-center">
+        <div class="font-headline font-extrabold text-xl tracking-tighter mb-4">
+            EM<span class="text-unifi">POWER</span> ELECTRICAL
+        </div>
+        <p class="text-mist text-[10px] uppercase tracking-widest leading-relaxed">
+            NYC Licensed Electrical Contractor | Multi-Family UniFi Specialists<br/>
+            Serving Manhattan, Brooklyn, Queens, Bronx & Staten Island
+        </p>
+    </footer>
+
+</body>
+</html>
